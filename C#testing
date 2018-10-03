@@ -1,0 +1,19 @@
+using system;
+namespace testpro
+{
+ class  Program
+ {
+ static int Main(string[] args)
+{
+   for(int i=0;i<args.length;i++)
+   {
+       Console.WriteLine("Arg:{0}",args[i]);
+   }
+   //foreach处理
+   foreach(string Arg in args)
+   {
+       Console.WriteLine("Arg:{0}",Arg);
+   }
+}
+}
+}
